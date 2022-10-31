@@ -1,0 +1,27 @@
+.step-wizard {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 120px;
+    height: 4px;
+    background: #dedede;
+}
+
+.step-wizard > button {
+    display: flex;
+    background-color: #DEDEDE;
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 0;
+}
+
+button.finished, .line.finished {
+    background-color: #0B5ED7 !important;
+    color: white;
+}
